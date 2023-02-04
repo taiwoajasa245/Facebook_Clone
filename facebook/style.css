@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+.header .container {
+    font-size: 30px;
+}
+
+/*my dull code */
+
+div.container1{
+    background-color: #ffff;
+    width: 400px;
+    height: 395px;
+    left: 700px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 0px 9px 1px  rgba(95, 92, 92, 0.357);
+}
+form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+hr{
+    margin: 20px 20px;
+    opacity: 0.2;
+}
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border:1px solid rgb(171, 169, 169);
+}
+input:hover{
+    box-shadow: 0px 0px 1px 1px rgb(0, 0, 255);
+}
+.link {
+    background-color: rgb(12, 194, 12);
+    font-weight: bold;
+    padding: 12px 10px;
+    color: white;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+a:hover{
+    text-decoration: underline;
+}
+.new a:hover,
+a {
+    text-decoration: none;
+}
+.create {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+input:placeholder-shown{
+    font-size: large;
+}
+
+@media (max-width: 999px ){
+    .content{
+        display: block;
+    }
+    .container{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 23px;
+        line-height: 2;
+    }
+    .container .container1 {
+        margin: auto;
+    }
+    .content p {
+        line-height: normal;
+    }
+    img {
+        max-width: 100%;
+    }
+    div.container1{
+        background-color: white;
+        width: 400px;
+        height: 390px;
+        left: 700px;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 100px ){
+    .content{
+        display: block;
+    }
+    .container{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 23px;
+        line-height: 2;
+    }
+    .container .container1 {
+        margin: auto;
+    }
+    .content p {
+        line-height: normal;
+    }
+    img {
+        max-width: 100%;
+    }
+    div.container1{
+        background-color: red;
+        width: 400px;
+        height: 390px;
+        left: 700px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0px 4px 6px 0px;
+    }
+}
